@@ -1,0 +1,39 @@
+keywords:
+	mINT
+	mDOUBLE
+	mFLOAT
+	mSHORT
+	mAUTO
+	mELSE
+	mELIF
+	mIF
+	mTHEN
+	mWHILE
+	mGOTO
+	mRET
+	mFOR
+	mINCL
+	=> starts with a small m letter followed by all capital letters
+
+
+identifiers:
+	=> starts with "ttm" then a capital letter followed by zero or more small letters
+	e.g. ttmAdd
+	"ttmPrint" and "ttmScan" are predefined functions,
+	syntax of ttmPrint => ttmPrint !>>"string"!>>ttmA
+	syntax of ttmScan => ttmScan !<<ttmA
+	!>> is a special symbol for ttmPrint 
+	!<< is a special symbol for ttmScan
+
+
+operators:
+	algebraic: 	o+			relational:	o>
+				o-						o<
+				o*						o=
+				o/						o!<
+				o%						o!>
+										o!=
+
+				
+comments:
+	:c:

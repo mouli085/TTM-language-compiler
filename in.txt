@@ -1,0 +1,63 @@
+!#mINCL !< standardio.t !>
+
+mINT ttmMain !( !)
+!{
+	mINT ttmA !, ttmB !, ttmC !, ttmI !,ttmJ
+	ttmA o= 56
+	ttmB o= 67
+	mSINE !( 25 !)
+	ttmPrint !<< "SUM of : " !<< ttmA o+ ttmB
+	:array:
+	:hellooo:
+
+	mFOR !( ttmI o= 0 !; ttmI o< 5 !; ttmI o++ !)
+	!{
+		mFOR !( ttmJ o= 0 !; ttmJ o< 5 !; ttmJ o++ !)
+	!{
+		ttmA o+ ttmB
+	!}
+	!}
+
+	ttmA o=5
+	ttmB o=8
+	:ttmA o< ttmB:
+	mIF ttmA o> 0 mTHEN 
+	!{
+		mIF ttmA o>6 mTHEN 
+		!{
+			2
+		!}
+		mELSE
+		!{
+			mIF ttmA o< ttmB mTHEN
+			!{
+				7
+			!}
+
+		!}
+	!}
+	mELSE
+	!{
+	67
+	!}
+
+
+	mSWITCH ttmA
+	!{
+		mCASE 3 !:
+			123
+			mBREAK
+		mCASE 5 !:
+			345
+			mBREAK
+		mCASE 8 !:
+			100
+			mBREAK
+		mDEFAULT !:
+			700
+	!}
+	
+mRET 1
+!}
+
+

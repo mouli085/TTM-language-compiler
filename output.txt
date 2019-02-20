@@ -1,0 +1,60 @@
+standardio.t is included
+valid declaration
+
+Value of ttmA: 56
+
+value of expression : 56
+
+Value of ttmB: 67
+
+value of expression : 67
+ sin value 0.4226191865
+
+value of expression : 0.4226191865
+printing expression: "SUM of : "
+printing expression: 123
+
+
+comment ignored 
+
+comment ignored 
+
+value of expression : 123
+
+FOR LOOP:
+expression in for loop : 123
+expression in for loop : 123
+expression in for loop : 123
+expression in for loop : 123
+expression in for loop : 123
+
+FOR LOOP:
+expression in for loop : 123
+expression in for loop : 123
+expression in for loop : 123
+expression in for loop : 123
+expression in for loop : 123
+
+Value of ttmA: 5
+
+value of expression : 5
+
+Value of ttmB: 8
+
+value of expression : 8
+
+comment ignored 
+
+value of expression : 2
+
+value of expression : 7
+
+value of expression in IF: 7
+value of expression in ELSE: 7
+
+value of expression : 67
+value of expression in IF: 7
+value of expression in switch case: 345
+return 1
+ttmMain compiled
+program ended
