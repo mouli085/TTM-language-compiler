@@ -1,0 +1,9 @@
+
+mINT ttmMain !( !)
+!{
+mINT ttmA !, ttmB !, ttmC !, ttmI
+ttmA o= 56
+	ttmB o= 67
+	ttmPrint !<< "hello" !<< ttmA o+ ttmB
+mRET 1
+!}

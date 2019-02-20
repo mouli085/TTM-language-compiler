@@ -1,0 +1,16 @@
+
+valid declaration
+
+Value of ttmA: 56
+
+value of expression : 56
+
+Value of ttmB: 67
+
+value of expression : 67
+printing expression: "hello"
+printing expression: 123
+
+return 1
+ttmMain compiled
+program ended
